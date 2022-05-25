@@ -76,14 +76,3 @@ class padplane {
 };
 
 
-//test 
-
-int main() {
-  padplane pado;
-  pado.initialize();
-  
-  cout<<pado.padlist[0].xcor[1]*1;
-
-
-  return 0;
-}

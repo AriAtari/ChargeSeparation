@@ -14,7 +14,7 @@ public:
     float y;
     point pointslist[89];
     // constructor
-    electron(float xposi,float yposi) {
+    electron(float xposi=0.0,float yposi=0.0) {
         x = xposi;
         y = yposi;
     }
