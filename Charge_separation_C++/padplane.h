@@ -19,18 +19,18 @@ public:
     double xcor[2]={0,0};
     double ycor[2]={0,0};
     double charge=0;
-    pad() =default;
+   pad() =default;
 
     pad(double xcord[] , double ycord[] ) {
         for(int i =0;i<2;i++){
             xcor[i]= xcord[i];
             ycor[i]= ycord[i];
         }
-        
-        
+    };
+       
         
 
-    }
+   
 
 
 
